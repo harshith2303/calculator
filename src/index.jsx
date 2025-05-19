@@ -34,7 +34,7 @@ export default function App() {
   };
 
   return (
-    <div style={{textAlign:"center"}}>
+    <div style={{textAlign:"center", width:"50vw"}}>
       <h1>React Calculator</h1>
       <input type="text" value={input} readOnly />
       <p>{total}</p>
@@ -43,7 +43,6 @@ export default function App() {
         style={{
           display: "grid",
           gridTemplateColumns: "repeat(4, 1fr)",
-          gap: "10px",
           marginTop: "10px",
         }}
       >
